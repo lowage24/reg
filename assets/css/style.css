@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* form1 */
+@font-face {
+    font-family: 'Rubik'; /*Имя шрифта*/
+    src: url('../fonts/Rubik-Regular.ttf'); /*Путь к файлу c шрифтом*/
+}
+.registration{
+    font-family: 'Rubik';
+    width: 568px;
+    height: 811px;
+    border-radius: 8px;
+    border: 2px solid #000;;
+    margin: 0 auto;
+    
+}
+.registration__header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #C4C4C4;
+    padding: 30px;
+}
+.registration__subtitle{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #474747;
+}
+.registration__subtitle:before{
+    content: '\00D7';
+    font-size: 25px;
+    display: block;
+    margin: 0 185px 0 0;
+}
+.registration__form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 45px ;
+}
+.registration__form__title{
+    margin-bottom: 30px;
+}
+.registration__form__input{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #363636;
+    border: 1px solid #B0B0B0;
+    border-radius: 8px;
+    padding: 19px 14px;
+    margin-bottom: 15px;    
+}
+.registration__subtext{
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+}
+.registration__form__agree{
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.registration__form__check{
+    width: 24px;
+    height: 24px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 3px;
+    flex: 0 0 30px;
+}
+.registration__form__signup{
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #363636;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 3px;
+}
+label{
+    font-family: 'Rubik';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #363636;
+}
+label span, .registration__form__enter span{
+    color: #008C8C;
+}
+label span, .login__form__enter span{
+    color: #008C8C;
+}
+.registration__form__enter{
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #363636;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.registration__form__btn{
+    font-family: 'Rubik';
+    height: 43px;
+    width: 518px;
+    border-radius: 30px;
+    background: #B13957;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 10px;
+}
+.registration__form__button{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #474747;
+    border: 1px solid #AFAFAF;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 18px 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.google::before{
+    content: url('../img/google.svg');
+    display: block;
+
+    margin-right: 20px;
+}
+.facebook::before{
+    content: url('../img/facebook.svg');
+    display: block;
+    margin-right: 20px;
+}   
+.login{
+    font-family: 'Rubik';
+    width: 568px;
+    height: 594px;
+    border-radius: 8px;
+    border: 2px solid #000;;
+    margin: 0 auto;
+}
+.login__header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #C4C4C4;
+    padding: 30px;
+}
+.login__subtitle{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #474747;
+}
+.login__subtitle:before{
+    content: '\00D7';
+    font-size: 25px;
+    display: block;
+    margin: 0 185px 0 0;
+}
+.login__form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 45px ;
+}
+.login__form__title{
+    margin-bottom: 30px;
+}
+.login__form__signup{
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #363636;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 3px;
+}
+.login__form__input{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #363636;
+    border: 1px solid #B0B0B0;
+    border-radius: 8px;
+    padding: 19px 14px;
+    margin-bottom: 15px;
+}
+.login__form__enter{
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #363636;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.login__subtitle{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #474747;
+
+}
+.login__subtitle:before{
+    content: '\00D7';
+    font-size: 25px;
+    display: block;
+    margin: 0 215px 0 0;
+}
